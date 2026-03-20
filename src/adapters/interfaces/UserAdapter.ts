@@ -1,0 +1,1 @@
+import { User } from '../models/User';interface UserAdapter {getUser(id: number): Promise<User>;}export { UserAdapter };
