@@ -1,0 +1,1 @@
+import React from 'react';interface PrimaryButtonProps {children: React.ReactNode;}const PrimaryButton: React.FC<PrimaryButtonProps> = ({ children }) => {return <button className="primary-button">{children}</button>;};export default PrimaryButton;
