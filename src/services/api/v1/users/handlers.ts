@@ -1,0 +1,1 @@
+import { UserService } from '../../services/UserService';const userService = new UserService();export const getUser = async (id: number) => {return await userService.getUser(id);};
