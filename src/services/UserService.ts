@@ -1,0 +1,1 @@
+import { User } from '../models/User';class UserService {async getUser(id: number): Promise<User> {return { id, name: 'John Doe' };}}export { UserService };
